@@ -12,7 +12,7 @@ public class Test2 {
 	
 	public static void main(String[] args) {
 		Test2 obj = new Test2();
-		obj.m1(null);	//String version
+		obj.m1(null);		//String version
 		
 		obj.m1(new Object());	//Object version
 		
