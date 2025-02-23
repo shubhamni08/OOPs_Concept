@@ -21,16 +21,16 @@ public class Test {
 
 	public static void main(String[] args) {
 		Test obj = new Test();
-		obj.m1(null);
+		obj.m1(null);		//Monkey version
 		
 		Animal a1 = new Animal();
-		obj.m1(a1);
+		obj.m1(a1);			//Animal version
 		
 		Monkey m1 = new Monkey();
-		obj.m1(m1);
+		obj.m1(m1);			//Monkey version
 		
 		Animal a2 = new Monkey();
-		obj.m1(a2);
+		obj.m1(a2);			//Animal version
 		//method resolution is based on reference type and take care by compiler
 
 	}
