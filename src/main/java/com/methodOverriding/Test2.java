@@ -8,7 +8,8 @@ class P11{
 }
 
 class C11 extends P11{
-	public String m1() {
+	public String m1() {				//you can't reduce scope of access modifier, we can increase scope no problem
+		//if we reduce you will get compile time error.
 		System.out.println("String Type");
 		return null;
 	}
