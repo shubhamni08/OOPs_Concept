@@ -1,8 +1,9 @@
 package com.methodOverriding;
 
 class P13{
-	protected static String name = "SHubham";
-	
+	protected static String name = "SHUBHAM";
+	//variable resolution is always take care by compiler based on reference type, overriding rule is not applicable 
+	//for variable whether the variable is static or non-static.
 	public static void m1() {				
 		System.out.println("Parent class");
 	}
@@ -10,7 +11,7 @@ class P13{
 }
 
 class C13 extends P13{
-	public String name = "Nikam";
+	public String name = "NIKAM";
 	
 	public static void m1() {					
 		System.out.println("Child class");
